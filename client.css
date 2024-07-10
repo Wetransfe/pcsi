@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.login-container {
+    text-align: center;
+    background-color: #0072c6;
+    padding: 40px;
+    border-radius: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    color: white;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+}
+
+.form-group label {
+    width: 40%;
+    font-size: small;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.input-field {
+    width: 60%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-field[type="text"],
+.input-field[type="password"],
+.input-field select {
+    background-color: #fff;
+    color: #000;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.sign-in{
+    display: flex;
+    gap: 20%;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input {
+    margin-right: 5px;
+}
+
+.option{
+    width: 40%;
+}
+
+.sign-in-btn {
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: small ;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sign-in-btn:hover {
+    background-color: #77b6ff;
+    color: black;
+}
+
+hr {
+    width: 100%;
+    border: 0.5px solid #ccc;
+    margin: 20px 0;
+}
+
+.whats-this-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: small;
+    cursor: pointer;
+}
+
+footer {
+    padding-top: 20%;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
